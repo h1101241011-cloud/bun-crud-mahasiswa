@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRUD Mahasiswa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+
+  <!-- NAVBAR -->
+  <div class="bg-blue-700 text-white p-4 shadow-md flex justify-between items-center">
+    <h1 class="text-xl font-bold">🎓 Sistem Data Mahasiswa</h1>
+    <span class="text-sm text-blue-200">Pemrograman Web Lanjut</span>
+  </div>
+
+  <div class="flex">
+    <!-- SIDEBAR -->
+    <div class="w-56 bg-white shadow-md min-h-screen pt-4">
+      <ul class="space-y-1">
+        <li>
+          <a href="/" class="flex items-center gap-2 px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-700 font-medium rounded-lg mx-2 transition">
+            🏠 Dashboard
+          </a>
+        </li>
+        <li>
+          <a href="/mahasiswa" class="flex items-center gap-2 px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-700 font-medium rounded-lg mx-2 transition">
+            👥 Mahasiswa
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="flex-1 p-8">
+      {{content}}
+    </div>
+  </div>
+
+</body>
+</html>

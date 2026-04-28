@@ -1,0 +1,11 @@
+{
+  "name": "bun-crud-mahasiswa",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "start": "bun run index.ts"
+  },
+  "dependencies": {
+    "mysql2": "^3.9.0"
+  }
+}
